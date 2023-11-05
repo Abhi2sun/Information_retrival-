@@ -1,0 +1,22 @@
+iMapping={
+    "properties":{
+        "category":{
+            "type":"text"
+        },
+        "filename":{
+            "type":"text"
+        },
+        "title":{
+            "type":"text"
+        },
+        "content":{
+            "type":"text"
+        },
+        "content_vector":{
+            "type":"dense_vector",
+            "dims":768,
+            "index":True,
+            "similarity":"cosine"
+        }
+    }
+}
