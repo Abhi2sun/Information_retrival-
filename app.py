@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 indexName="news"
 
 try:
-    es =  Elasticsearch(['http://localhost:9200/'], http_auth=('elastic', 'PhuwiCnCTXV9a*HAiGK2'))
+    es =  Elasticsearch(['http://localhost:9200/'], http_auth=('elastic', 'xxxx'))
 except ConnectionError as e:
     print("ConnectionError:",e)
 
